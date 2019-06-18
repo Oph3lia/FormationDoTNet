@@ -1,0 +1,45 @@
+﻿<Window x:Class="Repertory.Views.AddContact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Repertory.Views"
+        mc:Ignorable="d"
+        Title="AddContact" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Repertoire\Repertory\Repertory\Images\contact-us.jpg" Opacity="0.6"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Ajout d'un contact" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                <StackPanel>
+                    <Label Content="Nom" FontWeight="Bold" FontSize="16" Margin="80,20,0,0" Foreground="White"/>
+                    <TextBox x:Name="textBoxName" Height="23" TextWrapping="Wrap" Text="" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+                <StackPanel Margin="200,0,100,0">
+                    <Label Content="Prénom" FontWeight="Bold" Margin="0,20,80,0" FontSize="16" Foreground="White" Background="{x:Null}" />
+                    <TextBox x:Name="textBoxFirstName" Height="23" TextWrapping="Wrap" Text="" Margin="0,0,80,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                <StackPanel>
+                    <Label Content="Mail" FontWeight="Bold" FontSize="16" Margin="80,20,0,0" Foreground="White"/>
+                    <TextBox x:Name="textBoxMail" Height="23" TextWrapping="Wrap" Text="" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+                <StackPanel Margin="200,0,100,0">
+                    <Label Content="Numéro de téléphone" FontWeight="Bold" Margin="0,20,80,0" FontSize="16" Foreground="White" />
+                    <TextBox x:Name="textBoxPhoneNumber" Height="23" TextWrapping="Wrap" Text="" Margin="0,0,80,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                <StackPanel>
+                    <Label Content="Adress" FontSize="16" Margin="80,20,0,0" FontWeight="Bold" Foreground="White"/>
+                    <TextBox x:Name="textBoxAdress" Height="23" TextWrapping="Wrap" Text="" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <Button Content="Enregistrer" Margin="20" Width="150" FontSize="18" FontWeight="Bold" Background="#FF81F7AC" Click="Register_Click"/>
+            <Button Content="Liste des Contacts" Width="160" FontSize="18" FontWeight="Bold" Background="#FF81D7FF" Click="Button_List_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

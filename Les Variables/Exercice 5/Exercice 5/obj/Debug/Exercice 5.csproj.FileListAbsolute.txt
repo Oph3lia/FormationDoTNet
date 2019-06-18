@@ -1,0 +1,13 @@
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\bin\Debug\Exercice 5.exe.config
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\bin\Debug\Exercice 5.exe
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\bin\Debug\Exercice 5.pdb
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\obj\Debug\Exercice 5.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\obj\Debug\Exercice 5.exe
+C:\Users\Dell\source\repos\Exercice 5\Exercice 5\obj\Debug\Exercice 5.pdb
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\bin\Debug\Exercice 5.exe.config
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\bin\Debug\Exercice 5.exe
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\bin\Debug\Exercice 5.pdb
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\obj\Debug\Exercice 5.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\obj\Debug\Exercice 5.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\obj\Debug\Exercice 5.exe
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\Les Variables\Exercice 5\Exercice 5\obj\Debug\Exercice 5.pdb

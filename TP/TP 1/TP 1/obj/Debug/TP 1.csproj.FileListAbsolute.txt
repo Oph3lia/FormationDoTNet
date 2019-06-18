@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\bin\Debug\TP 1.exe.config
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\bin\Debug\TP 1.exe
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\bin\Debug\TP 1.pdb
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\obj\Debug\TP 1.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\obj\Debug\TP 1.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\obj\Debug\TP 1.exe
+C:\Users\Dell\Desktop\Formation Noyon\Formation Dot.NET\TP\TP 1\TP 1\obj\Debug\TP 1.pdb

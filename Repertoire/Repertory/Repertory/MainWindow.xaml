@@ -1,0 +1,50 @@
+﻿<Window x:Class="Repertory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Repertory.Views"
+        mc:Ignorable="d"
+        Title="Répertoire" Height="500" Width="900">
+    <Window.Background>
+        <ImageBrush ImageSource="Images\list_image-JinrkaG5p4PAUbKUDPrih6rZ-1x.jpg"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel Margin="10" Orientation="Vertical">
+            <TextBlock Text="Bienvenue sur le repertoire en ligne !" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <TextBlock Text="Veuillez vous connecter !" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <StackPanel>
+                    <Label Content="Nom" FontWeight="Bold" FontSize="16" Margin="80,20,0,0"/>
+                    <TextBox x:Name="textBoxName" Height="23" TextWrapping="Wrap" Text="" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+                <StackPanel Margin="300,0,50,0">
+                    <Label Content="Prénom" FontWeight="Bold" Margin="0,20,0,0" FontSize="16" />
+                    <TextBox x:Name="textBoxFirstName" Height="23" TextWrapping="Wrap" Text="" Margin="0,0,50,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <Label Content="Nom d'utilisateur" FontWeight="Bold" FontSize="16" Margin="80,20,0,0"/>
+                    <TextBox x:Name="textBoxUserName" Height="23" TextWrapping="Wrap" Text="" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+                <StackPanel Margin="300,0,50,0">
+                    <Label Content="Adresse Mail" FontWeight="Bold" Margin="0,20,0,0" FontSize="16" />
+                    <TextBox x:Name="textBoxMail" Height="23" TextWrapping="Wrap" Text="" Margin="0,0,50,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <Label Content="Mot de Passe" FontWeight="Bold" FontSize="16" Margin="80,20,0,0"/>
+                    <PasswordBox x:Name="textBoxPasseWord" Height="23" Margin="80,5,0,0" Width="199"/>
+                </StackPanel>
+                <StackPanel Margin="300,0,50,0">
+                    <Label Content="Confirmer le Mot de Passe" FontWeight="Bold" Margin="0,20,0,0" FontSize="16" />
+                    <PasswordBox x:Name="passeWordConfirm" Height="23" Margin="0,0,50,0" Width="199"/>
+                </StackPanel>
+            </StackPanel>
+            <Button Content="Enregistrer" Margin="30" Width="150" FontSize="18" FontWeight="Bold" Background="#FFFFC750" Click="Save_Click"/>
+            <Button Content="Connexion" Width="150" FontSize="18" FontWeight="Bold" Background="#FF81FF92" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
